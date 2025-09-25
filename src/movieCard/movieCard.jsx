@@ -11,7 +11,9 @@ function MovieCard({ movie: { id, title, poster_path } }) {
             <img src={`${image_base_url}${poster_path}`} alt={title} className="w-full h-auto rounded-lg" />
             <p  className="text-white">{title}</p>
         </div>
-    )
+    );
 }
+
+
 
 export default MovieCard; 
