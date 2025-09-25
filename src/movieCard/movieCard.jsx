@@ -14,6 +14,4 @@ function MovieCard({ movie: { id, title, poster_path } }) {
     );
 }
 
-
-
 export default MovieCard; 
